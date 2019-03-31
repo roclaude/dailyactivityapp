@@ -17,7 +17,4 @@
         $respons_tags = $database->add_new_tags( $activity_id, $activity_tags );
     }
 
-    var_dump( $user->__get( "id" ) );
-    var_dump( $user->__get( "account_type" ) );
-
     new ActivityTable( $database, $user->__get( "id" ), $user->__get( "account_type" ), $activity_member ? null : $userid );
