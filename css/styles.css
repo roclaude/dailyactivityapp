@@ -1,0 +1,83 @@
+
+/*** Login page
+*/
+.login-form-panel {
+    width: 300px;
+    max-width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.login-form-panel .panel {
+    background: #f9f9f9;
+}
+
+/*** Dashboard page
+*/
+.panel.user-dashboard td {
+    min-width: 90px;
+}
+.activities-box-title {
+    line-height: 34px;
+}
+.panel-user th.due-date {
+    width: 120px;
+}
+.panel-user th.priority {
+    width: 70px;
+}
+.panel-user th:first-child {
+    width: 30px;
+}
+.panel-user th:last-child {
+    width: 110px;
+}
+.panel-user th.user {
+    width: 150px;
+}
+.panel-user input {
+    width: 100%;
+}
+.panel-user input:read-only,
+.panel-user input:read-only:focus {
+    border-color: transparent;
+    outline: none;
+}
+.panel-user tr button {
+    margin-right: 5px;
+}
+.panel-user tr button.save-activity,
+.panel-user tr button.cancel-activity {
+    display: none;
+}
+.panel-user tr.edit button.save-activity,
+.panel-user tr.edit button.cancel-activity {
+    display: inline-block;
+}
+.panel-user tr.edit button.edit-activity,
+.panel-user tr.edit button.delete-activity {
+    display: none;
+}
+#add-activity-form .alert {
+    display: none;
+}
+#table-activity-wrap table.table {
+    margin-bottom: 0;
+}
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+#table-activity-wrap input:read-only{
+    padding: 2px 4px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: #fff;
+
+}
+#table-activity-wrap input{
+    padding: 2px 4px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    background: #f9f9f9;
+}
