@@ -17,6 +17,7 @@ You can find a sample of database in ./db
 
 ## Database structure
 You can find the database structure here:
+https://github.com/roclaude/dailyactivityapp/blob/master/images/db.jpg
 
 ## Lisence
 MIT
